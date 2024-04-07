@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif; /* Specify a fallback font */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Set base text color */
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #007bff; /* Brand color */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent */
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  a:hover {
+    color: #007bff; /* Brand color on hover */
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 960px; /* Limit container width for responsiveness */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  section {
+    margin-bottom: 40px; /* Increase spacing between sections */
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff; /* Brand color for headings */
+  }
+  
+  .project-card {
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.3s ease-in-out; /* Add hover transform */
+  }
+  
+  .project-card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+  }
+
+  .profile-img img {
+    border-radius: 50%; /* Rounded border for circular image */
+    width: 250px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
